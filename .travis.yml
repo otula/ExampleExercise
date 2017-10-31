@@ -1,1 +1,8 @@
 language: java
+deploy:
+  provider: heroku
+  api_key:
+    secure: WOctH0uIOaSR38G3SuiVtCID0jH6EtY++qzyNpMJGBlj6jP90cuRNKI4gTWGdfLF0Zoo16yXgET7lOfKy+XmjJuoR/zQQKtHX1dLGTDi4jeO6WieIDG7NH8svNO787U48u8LEscSeWzMOzBUcQFmXcwr/fd+4MnI7htlE9AkiZ5DzDlEEPWTjceNoC0xTLJeXmGkR17Wys99LR8Objkk00WJzCqB5u/O/Q6QlfWeBGOr4FZaQ18w3b5z7NiSm8SOYHOIRH3EGedOyeNSgZDR4EJdO0L5Bscy3QRT/W4tlTWVuCQSXqa+BORdanKo0ceGi/s6y20YoMYhbh+a/qQ1lon1TGF8EPIZRXgEBiz0yMcVAJlUhh/qUh1sged+5vb55XsJsudp6LIv2b85X7gemCUqIdgHeCojpWUpBoKzhTwnvIZosmpu+dCYvuUI+726Ycvj3gV5imTMY3IX3XiNlAW0JB78/MBf/ihbapRhDeOQZcdstJhFQmQpb1DjDhkLWhvLYQr33gjFg3vAjqSxgU10XkZ1lWt5v4HqJfuw3Ip6Thk99bgWKxT6C3tro9puStTErlg+s9+P/GceAiDud35ZKmH5Oc6xFEyQN+5MGmNSuOvUHLrdTaUNgw7sB/RV9JqAwLd9GgwFMCWw4W77jLr8PBd7fFfvMiIH7vy7DFg=
+  app:
+    master: harjoitustyo-staging
+    production: harjoitustyo-production
