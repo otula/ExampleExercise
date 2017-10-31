@@ -1,0 +1,1 @@
+## Toteuttamatta jääneet ominaisuudet
